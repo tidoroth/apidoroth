@@ -6,7 +6,7 @@ import jwt
 
 df = pd.read_csv('agrogalaxyData.csv')
 df = df.fillna('')
-dfDict = df.to_dict(orient='records')
+dfDict =  df.to_dict(orient='records')
 
 
 app = FastAPI()
