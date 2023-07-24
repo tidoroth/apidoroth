@@ -8,7 +8,7 @@ df = pd.read_csv('agrogalaxyData.csv')
 df = df.fillna('')
 dfDict =  df.to_dict(orient='records')
 
-
+#api
 app = FastAPI()
 
 @app.get("/")
